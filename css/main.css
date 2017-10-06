@@ -297,7 +297,7 @@ h2 {
 }
 
 
-@media (max-width: 350px) { 
+@media (max-width: 150px) { 
 	.site-picture img {
 		height: 100px;
 		width: 100px;
