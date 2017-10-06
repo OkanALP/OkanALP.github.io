@@ -298,14 +298,14 @@ h2 {
 
 }
 
-@media (max-width: 200px) { 
+@media (max-width: 350px) { 
 	#home h1 {
 		font-size: 16px;
 		margin-bottom: 5px;
 		margin-top: 15px;
 	}
 	#home h2 {
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.site-picture img {
 		margin-top: 90px;
