@@ -315,7 +315,7 @@ h2 {
 	}
 	.home-social-icon .fa,
 	.youtube-social-icon .fa {
-		--circle_diameter: 30px;
+		--circle_diameter: 50px;
 		width: var(--circle_diameter);
 		height: var(--circle_diameter);
 		border: 2px solid var(--text_color);
