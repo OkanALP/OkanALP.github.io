@@ -295,10 +295,6 @@ h2 {
 }
 
 @media (max-width: 576px) { 
-
-}
-
-@media (max-width: 350px) { 
 	#home h1 {
 		font-size: 16px;
 		margin-bottom: 5px;
