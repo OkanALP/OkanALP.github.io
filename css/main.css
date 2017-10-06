@@ -29,7 +29,7 @@ html, body, #home {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;	
-	padding-top: 35%;
+	padding-top: 30%;
 }
 .fixed-top {
 	transition: 0.2s all linear;
