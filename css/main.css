@@ -298,7 +298,7 @@ h2 {
 
 }
 
-@media (max-width: 350px) { 
+@media (max-width: 200px) { 
 	#home h1 {
 		font-size: 16px;
 		margin-bottom: 5px;
