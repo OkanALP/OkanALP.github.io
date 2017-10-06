@@ -29,7 +29,6 @@ html, body, #home {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;	
-	padding-top: 10%;
 }
 .fixed-top {
 	transition: 0.2s all linear;
@@ -295,27 +294,4 @@ h2 {
 }
 
 @media (max-width: 576px) { 
-	#home h1 {
-		font-size: 16px;
-		margin-bottom: 5px;
-		margin-top: 15px;
-	}
-	#home h2 {
-		font-size: 8px;
-	}
-	.site-picture img {
-		margin-top: 90px;
-		height: 100px;
-		width: 200px;
-		border: 5px solid var(--text_color);
-	}
-	.home-social-icon .fa,
-	.youtube-social-icon .fa {
-		--circle_diameter: 50px;
-		width: var(--circle_diameter);
-		height: var(--circle_diameter);
-		border: 2px solid var(--text_color);
-		border-radius: 50%;
-		line-height: calc(var(--circle_diameter) - 4px);
-	}
 }
