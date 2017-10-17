@@ -1,0 +1,300 @@
+:root {
+	--text_color: #46453D;
+	--text_color_p: #858585;
+	--youtube_text_color: #F0F0F0;
+	--contact_text_color: #ECF0F1;
+	--contact_text_color_bg: #292C37;
+	--navbar_bg: #2D2E2E;
+}
+h1, h2, h3,	h4,	h5,	h6, p,
+.home-social-icon,
+.biography-item-circle .fa,
+.notes-item-circle .fa {
+	color: var(--text_color);
+}
+.youtube-text p,
+.youtube-content p:nth-child(2),
+.youtube-content p:nth-child(3),
+.youtube-content p:nth-child(6) {
+	color: var(--youtube_text_color);
+}
+html, body, /*#home*/ {
+	height: 100%;
+}
+#home {
+	background: url("../images/home-bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 150px 0 120px 0;	
+}
+.fixed-top {
+	transition: 0.2s all linear;
+}
+.fixed-top.change-fix-top {
+	margin-top: 0;
+	background: var(--navbar_bg);
+	max-width: 2000px;
+}
+.navbar-brand img {
+	border-radius: 50%;
+	background: #f5bb8c;
+	margin: 0 2px;
+	padding: 3px;
+}
+.navbar {
+	background: var(--navbar_bg);
+}
+.navbar-nav {
+	font-family: 'Oswald' serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+.navbar-nav .nav-link {
+	margin-left: 15px;
+}
+.navbar-nav .nav-item a {
+	color: #8F9292 !important;
+}
+.site-picture img {
+	height: 256px;
+	width: 256px;
+	border-radius: 50%;
+	padding: 5px;
+	border: 8px solid var(--text_color);
+}
+h1 {
+	font-family: 'Comfortaa';
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+h2 {
+	font-family: 'Oswald';
+	font-size: 48px;
+	margin: 5px 0 10px 0;
+	text-decoration: overline;
+}
+.home-social-icons,
+.youtube-social-icons {
+	margin: 0;
+	padding-top: 10px;
+}
+.home-social-icon,
+.youtube-social-icon {
+	display: inline;
+	padding: 0 5px;
+}
+.home-social-icon .fa,
+.youtube-social-icon .fa {
+	--circle_diameter: 50px;
+	width: var(--circle_diameter);
+	height: var(--circle_diameter);
+	border: 2px solid var(--text_color);
+	border-radius: 50%;
+	line-height: calc(var(--circle_diameter) - 4px);
+	transition: 0.5s all linear;
+}
+.home-social-icon {
+	padding-top: 40px;
+}
+.home-social-icon .fa:hover {	
+	background: #46453D;
+	color: #E3AF5C;
+}
+#biography,
+#notes {
+	padding-top: 120px;
+	padding-bottom: 70px;
+	background: #ECF0F1;
+}
+.biography-top h3,
+.notes-top h3 {
+	font-family: 'Montserrat';
+	font-size: 30pt;
+	font-weight: 700;
+}
+.biography-top .biography-line,
+.notes-top .notes-line,
+.youtube-content .youtube-line {
+	margin-top: 25px;
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
+	width: 130px;
+	border-bottom: 3px solid #dfbc42;
+}
+.biography-top p,
+.notes-content p {
+	font-family: 'Comfortaa';
+	font-size: 15px;
+	color: var(--text_color_p);
+	line-height: 130%;
+	word-spacing: 2px;
+}
+.notes-content p {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.biography-top p {
+	margin-top: 50px;
+	text-align: justify;
+}
+.biography-content,
+.notes-content {
+	margin-top: 50px;
+}
+.biography-content h4,
+.notes-content h4 {
+	margin-top: 15px;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 700;
+}
+.biography-content .row .biography-item-circle,
+.notes-content .row .notes-item-circle {
+	margin: 0;
+	padding: 0;
+}
+.biography-content .row div,
+.notes-content .row div {
+	padding-bottom: 50px;
+}
+.notes-content p {
+	margin-top: 10px;
+}
+.notes-item-circle .fa {
+	--circle_diameter: 60px;
+	width: var(--circle_diameter);
+	height: var(--circle_diameter);
+	border: 2px solid var(--text_color);
+	border-radius: 50%;
+	line-height: calc(var(--circle_diameter) - 4px);
+}
+#youtube {
+	background: url("../images/youtube-bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.youtube-text p {
+	font-family: 'Comfortaa';
+	font-size: 15px;
+	line-height: 130%;
+	word-spacing: 2px;
+	text-align: justify;
+	padding-top: 50px;
+}
+.youtube-content p:nth-child(2) { /* p : youtube */
+	margin: 0;
+	padding-top: 15px;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.youtube-content p:nth-child(3) { /* p : yazılım gezegeni */
+	margin-top: 6px;
+	font-family: 'Comfortaa';
+	font-size: 24px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.youtube-content .youtube-line {
+	margin-top: 40px;
+	border-bottom: 3px solid var(--youtube_text_color);
+}
+.youtube-social-icon .fa {
+	transition: 0.5s all linear;
+	color: #E6594B;
+	background: var(--youtube_text_color);
+	border: 2px solid var(--youtube_text_color);
+}
+.youtube-social-icon .fa:hover {
+	color: #292C37;
+}
+.youtube-content ul {
+	padding-top: 20px;
+}
+.youtube-content p:nth-child(6) { /* p : /myygezegeni; */
+	margin: 0;
+	padding-top: 15px;
+	font-family: 'Comfortaa';
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+#youtube .row .youtube-video img {
+	width: 100%;
+}
+#youtube .row .youtube-video .youtube-first img {
+	width: 10px !important;
+}
+ #contact {
+	background: url("../images/contact-bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 50px 0;
+}
+ .contact-item-circle .fa  {
+	--circle_diameter: 80px;
+	width: var(--circle_diameter);
+	height: var(--circle_diameter);
+	border: 2px solid var(--contact_text_color_bg);
+	border-radius: 50%;
+	line-height: calc(var(--circle_diameter) - 8px);
+	color: var(--contact_text_color_bg);
+	background: var(--contact_text_color);
+	
+}
+.contact-social-icons li {
+	display: inline;
+	color: var(--contact_text_color);
+	padding-left: 5px;
+}
+.contact-social-icon .fa {
+	--circle_diameter: 40px;
+	width: var(--circle_diameter);
+	height: var(--circle_diameter);
+	border-radius: 50%;
+	line-height: var(--circle_diameter);
+	color: var(--contact_text_color_bg);
+	background: var(--contact_text_color);
+	transition: 0.5s all linear;
+}
+.contact-social-icon .fa:hover {
+	background: rgba(236, 240, 241, 0.1);
+	color: #ECF0F1;
+}
+.contact-text {
+	color: var(--contact_text_color);
+	font-family: 'Comfortaa';
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	padding-top: 15px;
+}
+@media (max-width: 1200px) {	
+	.site-picture img {
+		width: 200px;
+		height: 200px;
+	}
+}
+@media (max-width: 576px) {
+	#youtube .row .youtube-video img {
+		padding-top: 20px;
+	}
+	.youtube-content p:nth-child(6) {
+		padding-bottom: 35px;
+	}
+}
